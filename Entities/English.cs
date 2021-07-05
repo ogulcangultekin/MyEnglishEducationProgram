@@ -22,7 +22,8 @@ namespace Entities
 
         public DateTime? EklemeTarihi { get; set; } = DateTime.Now;
         [Required]
-        [StringLength(50)]
-        public string TurengLink { get; set; }
+        [StringLength(500)]
+        public string TurengLink  { get; set; }
+
     }
 }
