@@ -38,10 +38,14 @@ namespace UserInterface
 
         private void addVocubaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form FormAddVocabulary = new AddVocabulary();
-            FormAddVocabulary.Show();
+            Form formAddVocabulary = new AddVocabulary();
+            formAddVocabulary.Show();
         }
 
-      
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form exercisePage = new ExercisePage();
+            exercisePage.Show();
+        }
     }
 }

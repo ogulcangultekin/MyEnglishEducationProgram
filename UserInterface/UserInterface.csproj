@@ -62,6 +62,12 @@
     <Compile Include="AddVocabulary.Designer.cs">
       <DependentUpon>AddVocabulary.cs</DependentUpon>
     </Compile>
+    <Compile Include="ExercisePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExercisePage.Designer.cs">
+      <DependentUpon>ExercisePage.cs</DependentUpon>
+    </Compile>
     <Compile Include="VocabularyList .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddVocabulary.resx">
       <DependentUpon>AddVocabulary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExercisePage.resx">
+      <DependentUpon>ExercisePage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VocabularyList .resx">
       <DependentUpon>VocabularyList .cs</DependentUpon>
